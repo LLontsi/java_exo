@@ -1,4 +1,4 @@
-package exo5;
+package exo6;
 public class TestAffichable {
     public static void main(String[] args) {
         Affichable[] tableau = new Affichable[2];
