@@ -10,7 +10,7 @@ public class Pointcol extends Point {
     public void colorer(byte couleur){
         this.couleur=couleur;
     }
-    public void afficher(){
+    public void afficheCol(){
         super.afficher();
         System.out.println("sa couleur"+this.couleur);
     }

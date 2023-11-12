@@ -1,9 +1,9 @@
 public class TestPoint {
     public static void main(String[] args){
-        Point p1;
-        p1 = new Point();
-        p1.Intialiser(2,3);
+        Pointcol p1;
+        p1 = new Pointcol(2,3,(byte)(1));
+        p1.colorer((byte)(2));
         p1.deplacer(3, 4);
-        p1.afficher();
+        p1.afficheCol();
     }
 }
