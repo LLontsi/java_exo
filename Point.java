@@ -6,7 +6,7 @@ public class Point {
         this.abcsisse=0;
         this.ordonnee=0;
     }
-    public  Point(double abcsisse,double ordonnee){
+    public Point(double abcsisse,double ordonnee){
         this.abcsisse=abcsisse;
         this.ordonnee=ordonnee;
     }
@@ -20,5 +20,8 @@ public class Point {
     }   
     public void afficher(){
         System.out.println("je suis un point de coordonnees:"+this.abcsisse+"et"+this.ordonnee);
+    }
+    public void identifie(){
+        System.out.println("je suis un point");
     }
 }
