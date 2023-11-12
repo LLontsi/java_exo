@@ -6,10 +6,6 @@ public class Point {
         this.abcsisse=0;
         this.ordonnee=0;
     }
-    public Point(double abcsisse,double ordonnee){
-        this.abcsisse=abcsisse;
-        this.ordonnee=ordonnee;
-    }
     public void Intialiser(double abcsisse,double ordonnee){
         this.abcsisse=abcsisse;
         this.ordonnee=ordonnee;
